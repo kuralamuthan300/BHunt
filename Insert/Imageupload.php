@@ -1,7 +1,7 @@
 
 <?php
-
-$target_dir = "uploads/";
+/// Server directory : htdocs/response/uploads
+$target_dir = "./uploads/";
 $phone_trim = trim($_POST["phone"]);
 echo("<title>Madhu image</title>");
 if (check($phone_trim)) {
@@ -46,7 +46,7 @@ if (check($phone_trim)) {
             // if everything is ok, try to upload file
         } else {
             if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-                rename("uploads/" . basename($_FILES["fileToUpload"]["name"]), "uploads/" . $_POST["phone"] . ".jpg");
+                rename("./uploads/" . basename($_FILES["fileToUpload"]["name"]), "./uploads/" . $_POST["phone"] . ".jpg");
                 echo "<br><br><br><center><h1 style=\"color:green;font-weight:bolder;\">Image uploaded sucessfully.<br>Thank You !<br></h1></center>";
             } else {
                 echo "Sorry, there was an error uploading your file.";
