@@ -1,11 +1,74 @@
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
-.home-area{
-    background-color: black;
-    height:100vh;
-    width: 100vw;
-    background-size: cover;
-    background-position: center center;
+.home-area {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center center;
+}
+
+#particles canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/*HBD Madhu */
+@import url(https://fonts.googleapis.com/css?family=Fjalla + One);
+
+body {
+  font-family: "Fjalla One", sans-serif;
+}
+
+.container {
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: block;
+  position: absolute;
+  max-width: 235px;
+}
+
+h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 42px;
+  margin: 0;
+  line-height: 47px;
+  letter-spacing: 2px;
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+.title {
+  transform: translateX(-50%) rotate(-10deg);
+  display: block;
+  float: left;
+  left: 50%;
+  position: relative;
+}
+.title span {
+  transform: skew(-10deg);
+  display: block;
+  float: left;
+  text-shadow: #575050 1px 1px, #575050 2px 2px, #575050 3px 3px, #575050 4px 4px, #575050 5px 5px, #575050 6px 6px;
+  min-width: 10px;
+  min-height: 10px;
+  position: relative;
+}
+
+.title:nth-child(1) {
+  color: #e55643;
+}
+.title:nth-child(2) {
+  color: #2b9f5e;
+}
+.title:nth-child(3) {
+  color: #f1c83c;
 }
