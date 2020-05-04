@@ -1,0 +1,77 @@
+body {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .card {
+    word-wrap: break-word;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-top: 20px;
+    border-style: solid;
+    padding: 40px;
+    border-width: 1px;
+  }
+  .card:hover{
+      animation: 5s card-border infinite;
+  
+  }
+  @media only screen and (max-width: 600px) {
+    .card {
+      padding: 10px;
+    }
+  }
+  .form {
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: bottom;
+  }
+  input[type="text"] {
+    height: 40px;
+    width: 70vw;
+    border-color: rgba(255, 217, 0, 0.555);
+    border-width: 2px;
+    box-shadow: green;
+    text-align: center;
+    font-size: large;
+    font-family: "Caveat", cursive;
+    outline:none;
+  
+  }
+  #questiongif {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    border-radius: 100%;
+  }
+  
+  .hint {
+    font-size: large;
+    font-family: "Caveat", cursive;
+  }
+  
+  .puzzleno{
+    font-size: 45px;
+    font-family: 'Leckerli One', cursive;
+  }
+  @keyframes card-border {
+    0%{
+        border-color: white;
+    }
+    25%{
+      border-color: rgba(58, 250, 0, 0.541);
+    }
+    50%{
+      border-color: rgba(58, 250, 0, 0.541);
+    }
+    100%{
+        border-color: white;
+    }
+  }
+  
