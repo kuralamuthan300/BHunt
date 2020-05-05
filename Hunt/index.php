@@ -25,7 +25,10 @@ $result = $conn->query($sql);
     <center>
         <br>
         <br>
-        <div class="title tracking-in-contract-bck-top">Birthday Hunt</div>
+        <div class="title tracking-in-contract-bck-top">Madhu's <br> Birthday Hunt</div>
+        <br>
+        <img src="./img/Madhu_logo.jpeg" alt="Madhu" width="150px"
+        height="150px" style="border-radius: 100%"/>
         <br>
         <br>
         <?php
