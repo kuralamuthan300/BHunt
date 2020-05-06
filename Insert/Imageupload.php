@@ -68,6 +68,7 @@ function check($phone)
     if ($result->num_rows == 1) {
         return 1;
     } else return 0;
+
 }
 
 

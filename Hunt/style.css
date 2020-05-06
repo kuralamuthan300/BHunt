@@ -17,7 +17,8 @@ body {
   border-style: solid;
   padding: 40px;
   border-width: 3px;
-  border-color: rgba(255, 221, 0, 0.5);
+border-color: rgb(255, 221, 0);;
+  border-radius: 10px;
 }
 .card:hover {
   animation: border-color 1s infinite;
@@ -35,14 +36,12 @@ body {
 input[type="text"] {
   height: 40px;
   width: 70vw;
-  border-color: rgba(255, 217, 0, 0.555);
   border-width: 2px;
-  box-shadow: green;
   text-align: center;
   font-size: large;
   font-family: "Jost", sans-serif;
   outline: none;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 #questiongif {
   width: 100px;
@@ -62,15 +61,13 @@ input[type="text"] {
 }
 @keyframes border-color {
   0% {
-    border-color: rgba(255, 221, 0, 0.733);
   }
 
   50% {
-    border-color: green;
+    border-color: rgba(7, 218, 255, 0.979);
   }
 
   100% {
-    border-color: rgba(255, 221, 0, 0.473);
   }
 }
 

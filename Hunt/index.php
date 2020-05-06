@@ -41,7 +41,7 @@ $result = $conn->query($sql);
                 <div class=\"hint\">" . $row["hint"] . "</div>
                 <br />
                 <br />
-                <form action=\"../View/view.php\" method=\"POST\" id=\"form" . $counter . "\" class=\"form\" autocomplete=\"off\">
+                <form action=\"../View/\" method=\"POST\" id=\"form" . $counter . "\" class=\"form\" autocomplete=\"off\">
                     <input type=\"text\" name=\"name\" placeholder=\"Who am I ?\" id=\"q" . $counter . "text\" />
                     <input type=\"hidden\" name=\"phone\" value=\"" . $row["phone"] . "\" />
                 </form>

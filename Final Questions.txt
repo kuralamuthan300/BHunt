@@ -1,5 +1,5 @@
 1.What is your name ?
-2.You call me   
+2.You call me
 3.What characteristics you admire in me the most.
 4.Tell me about our first meeting.
 5.First impression vs Current impression ?
@@ -12,3 +12,25 @@
 12.Did you ever think of apologizing to me? If yes what is the reason
 13.Did you ever thought of "glad u are in my life"? if yes mention the moment
 14.How important I am to you.
+
+
+
+
+
+
+1.My name is 
+2.I call you as 
+3.Characteristics I admire in you the most.
+4.Our precious first meeting.
+5.First impression and Current impression on you 
+6.One incident with you in which You made me so angry
+7.Movie character resembles you in real life.
+8.If I you up are jail,Possible crime that you would have done is
+9.Super power for you
+10.If I have time machine 
+11.If I were you for a day 
+12.My Apologies 
+13."glad u are in my life" Moment
+14.How important you to me.
+
+
