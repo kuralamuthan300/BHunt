@@ -7,7 +7,6 @@ h3 {
   color: white;
 }
 .flip-card {
-  
   margin: 20px auto;
   background-color: rgba(0, 0, 0, 0.5);
   width: 75vw;
@@ -19,7 +18,6 @@ h3 {
 }
 
 .flip-card-inner {
-  
   border-radius: 20px;
   position: relative;
   width: 100%;
@@ -68,6 +66,13 @@ h3 {
   .flip-card-back {
     overflow: scroll;
   }
+  .sticky {
+    width: 90vw;
+  }
+  p{
+    font-size: large;
+  }
+  
 }
 .ques_img {
   width: 200px;
@@ -78,14 +83,46 @@ h3 {
 .answer {
   padding: 10px;
 }
-.name{
+.name {
   font-size: xx-large;
 }
-h3{
+h3 {
   padding: 20px;
   font-size: x-large;
 }
-img{
- 
-  margin: auto 0;                       
-  }
+img {
+  margin: auto 0;
+}
+.sticky {
+  font-size: xx-large;
+  position: sticky;
+  position: -webkit-sticky; /* Safari */
+  top: 0;
+  z-index: 1;
+  color: rgb(8, 157, 226);
+  width: 75vw;
+  text-align: center;
+  background-color: rgba(0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+#particles-js canvas {
+  display: block;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  -webkit-transition: opacity 0.8s ease, -webkit-transform 1.4s ease;
+  transition: opacity 0.8s ease, transform 1.4s ease;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -10;
+  top: 0;
+  left: 0;
+}
