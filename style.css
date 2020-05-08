@@ -29,6 +29,7 @@ body {
   padding: 20px;
 }
 .hbd {
+  font-weight: lighter;
   font-size: xx-large;
 }
 .text-focus-in {
@@ -68,6 +69,7 @@ body {
 @media only screen and (max-width: 600px) {
   .name {
     font-size: 100px;
+    font-weight: bolder;
   }
 }
 
