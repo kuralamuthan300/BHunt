@@ -74,8 +74,8 @@ $conn->close();
     <?php
 
     $image_path = "../Insert/uploads/";
-    $image_path = $image_path.$phone;
-    $image_path = $image_path.".jpg";
+    $image_path = $image_path . $phone;
+    $image_path = $image_path . ".jpg";
     if (file_exists($image_path)) {
 
         $img_tag = "<div class=\"flip-card\">
@@ -85,12 +85,12 @@ $conn->close();
                 <img class=\"ques_img\" src=\"./img/uandme.jpg\" alt=\"uandme\">
             </div>
             <div class=\"flip-card-back\">
-                <img class=\"weImg\" src=\"".$image_path."\">
+                <img class=\"weImg\" src=\"" . $image_path . "\">
             </div>
         </div>
     </div>";
 
-    echo($img_tag);
+        echo ($img_tag);
     }
 
     ?>
@@ -109,17 +109,7 @@ $conn->close();
     </div>
 
 
-    <div class="flip-card">
-        <div class="flip-card-inner">
-            <div class="flip-card-front">
-                <h3>First meeting</h3>
-                <img class="ques_img" src="./img/first_meet.jpg" alt="meet">
-            </div>
-            <div class="flip-card-back">
-                <p class="answer"><?php echo ($answers[3]); ?></p>
-            </div>
-        </div>
-    </div>
+
     <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front">
@@ -143,7 +133,17 @@ $conn->close();
             </div>
         </div>
     </div>
-
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <h3>If there is only one chance for us to meet lastly.</h3>
+                <img class="ques_img" src="./img/first_meet.jpg" alt="meet">
+            </div>
+            <div class="flip-card-back">
+                <p class="answer"><?php echo ($answers[3]); ?></p>
+            </div>
+        </div>
+    </div>
     <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front">
